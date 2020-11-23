@@ -1,0 +1,30 @@
+C:\topitup_tablet\Top it Up\obj\x64\Release\Top it Up.csprojAssemblyReference.cache
+C:\topitup_tablet\Top it Up\obj\x64\Release\Interop.Shell32.dll
+C:\topitup_tablet\Top it Up\obj\x64\Release\Top it Up.csproj.ResolveComReference.cache
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmAdmin.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmAppUpdate.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmDing.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmOrderSimKits.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmNoPrinter.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmCalculator.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmWifiNetwork.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmAirtime.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmBillPayments.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmElectricity.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmPinless.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmCashup.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmTopitUp.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmConnectionSettings.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmPrint.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.RICA.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmSalesSearch.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmPrintLast.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmSplash.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmTIUAdmin.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.frmWebBrowser.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.popupLoading.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.PopupNotifierForm.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.PopupWait.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.UcNetworkAdapter.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\TopitUp.virtualKeyboard.resources
+C:\topitup_tablet\Top it Up\obj\x64\Release\Top it Up.csproj.GenerateResource.cache

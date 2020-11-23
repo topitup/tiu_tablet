@@ -1,0 +1,31 @@
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\Interop.Shell32.dll
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\Top it Up.csproj.ResolveComReference.cache
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmAdmin.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmAppUpdate.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmOrderSimKits.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmNoPrinter.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmCalculator.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmWifiNetwork.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmAirtime.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmBillPayments.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmElectricity.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmPinless.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmCashup.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmTopitUp.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmConnectionSettings.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmPrint.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.RICA.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmSalesSearch.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmPrintLast.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmSplash.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmTIUAdmin.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.frmWebBrowser.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.popupLoading.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.PopupNotifierForm.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.PopupWait.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.Properties.Resources.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.test.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.UcNetworkAdapter.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\TopitUp.virtualKeyboard.resources
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\Top it Up.csproj.GenerateResource.cache
+C:\Dropbox\Dev\topitup\Desktop App\Top it Up\Top it Up\obj\x86\Release\Top it Up.csproj.CoreCompileInputs.cache

@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rica_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rica_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charging1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charging1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov15_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov15_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov3_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnvoucherall0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnvoucherall0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov_telkom_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov_telkom_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_lb_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_lb_on.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="option1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\option1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnrhs1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnrhs1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_btn_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login-btn-normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginOrder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginOrder2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov2_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov51.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generalbtn0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\generalbtn0.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginShowDesktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginShowDesktop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printer_offline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer-offline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="network_wifi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network-wifi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="network_mobile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network-mobile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnvoucherdata0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnvoucherdata0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_lb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_lb.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov255" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov255.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginBanking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginBanking2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_lb_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_lb_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="network_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network-none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="popup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\popup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rica_proceed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rica_proceed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginMsgService" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginMsgService2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printer_offline_ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer_offline_ok.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_small_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_small_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_user.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="network_disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network_disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charging0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charging0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="closebtn0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\closebtn0.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slip_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slip_bg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_rhs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_rhs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loginbtn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loginbtn1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnvoucherAirtime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnvoucherAirtime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_btn_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login-btn-pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rica_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rica_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov12_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov12_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnlhs1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnlhs1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bill_cash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bill_cash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov10.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bill_cc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bill_cc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="provWater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\provWater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov3_rica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov3_rica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="network_lan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network-lan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="airtimeMultiBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\airtimeMultiBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnvouchersms0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnvouchersms0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSkype1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnSkype1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="network_cable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network_cable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_kbd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_kbd.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printer_offline_probem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer_offline_probem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnvoucherSpecial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnvoucherSpecial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnClose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_frm_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_frm_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generalbtn4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\generalbtn4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_user_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_user_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="network_notconnected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network_notconnected1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnrhs0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnrhs0.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_icon_36_admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_icon_36_admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov4_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov4_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="over_tick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\over_tick.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_btn_clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login-btn-clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="network_bluetooth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network_bluetooth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kbd_sml3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kbd_sml3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loginbtn0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loginbtn0.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSkype" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnSkype.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_lhs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_lhs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginTeamViewer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginTeamViewer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rica_tick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rica_tick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="network_wireless_disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network_wireless_disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rica_clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rica_clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kbd_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kbd_over.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginPCSettings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginPCSettings.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov7.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_user_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_user_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnlhs0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnlhs0.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rica_prov10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rica_prov10.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov1_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov1_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printer_offline_cashdrawer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer-offline-cashdrawer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rica_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rica_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generalbtn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\generalbtn1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="network_cellular_disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network_cellular_disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov254" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov254.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov_extra1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov_extra1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov11_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov11_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generalbtn3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\generalbtn3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnlhs_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnlhs_border.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnlhs01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnlhs01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov2_rica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov2_rica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="option0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\option0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="closebtn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\closebtn1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_lb_on_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_lb_on_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rica_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rica_next.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginCalc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginCalc2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginShutdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginShutdown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="network_wireless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network_wireless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov1_rica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov1_rica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov_more" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov_more.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="network_cellular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network_cellular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kbd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kbd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnrhs2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnrhs2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generalbtn2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\generalbtn2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov10_rica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov10_rica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="panelopacity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\panelopacity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnlhs2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnlhs2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="popup_info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\popup-info2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLogin911" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn9112.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_user_admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_user_admin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_lhs_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_lhs_border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginLockPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginLockPC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginActivation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginActivation2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bill_dc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bill_dc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov10_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov10_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLoginNetCon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLoginNetCon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov5_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov5_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov7_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov7_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kbd_sml3_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kbd_sml3_over.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_frm_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_frm_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov107.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_frm_exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_frm_exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lb_login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lb_login.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov_extra0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov_extra0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quickPrintBg5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quickPrintBg5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blindvend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blindvend.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnvoucherik1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnvoucherik1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnvoucherik2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnvoucherik2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnvoucherik3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnvoucherik3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnvoucherik4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnvoucherik4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnvoucherik5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnvoucherik5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov_ikeja_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov_ikeja_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov_oneforu_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov_oneforu_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov_ott" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov_ott.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov_ott_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov_ott_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prov_unipin_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prov_unipin_small.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
